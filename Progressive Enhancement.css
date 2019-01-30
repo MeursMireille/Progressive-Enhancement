@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     } 
-    
+
 
      a:link {
         color: darkorange;
@@ -28,4 +28,10 @@ body {
         background-color: lightgray;
         border-left: 3px dashed;
         padding-left: 30px;
+        font-style: italic;
      }
+     
+   td {
+      padding-right: 30px;
+   }
+   
