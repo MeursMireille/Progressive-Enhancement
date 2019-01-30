@@ -1,0 +1,31 @@
+body {
+    width: 90%;
+    margin: center;
+    color: indigo;
+    font-family: serif;
+    font-stretch: semi-expanded;
+    background-color: rgba(210, 200, 219, 0.541);
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/11/23/22/background-1733101_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    } 
+    
+
+     a:link {
+        color: darkorange;
+     } 
+     a:visited {
+        color: crimson;
+     }
+     a:hover {
+        color: chartreuse;
+     }
+
+     blockquote {
+        padding: 30% auto;
+        margin: 80px 0;
+        font-size: 160%;
+        background-color: lightgray;
+        border-left: 3px dashed;
+        padding-left: 30px;
+     }
