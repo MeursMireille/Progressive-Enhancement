@@ -5,33 +5,71 @@ body {
     font-family: serif;
     font-stretch: semi-expanded;
     background-color: rgba(210, 200, 219, 0.541);
-    background-image: url(https://cdn.pixabay.com/photo/2016/10/11/23/22/background-1733101_960_720.jpg);
+    background-image: url(https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiDg6z88pfgAhVLZlAKHWdYCRMQjRx6BAgBEAU&url=https%3A%2F%2Fnl.123rf.com%2Fclipart-vectoren%2Ffolds.html&psig=AOvVaw28uAcayIGo8PFHP1mBax3T&ust=1549019869591544);
+    background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
     } 
-
-
-     a:link {
+   h1 {
+      background-color:yellow;
+   }
+   a:link {
         color: darkorange;
      } 
-     a:visited {
+   a:visited {
         color: crimson;
      }
-     a:hover {
+   a:hover {
         color: chartreuse;
      }
+   q {
+      padding: 30px;
+   }
 
-     blockquote {
-        padding: 30% auto;
+   blockquote {
+        padding: 30%;
         margin: 80px 0;
         font-size: 160%;
         background-color: lightgray;
         border-left: 3px dashed;
-        padding-left: 30px;
         font-style: italic;
      }
+   .farmer {
+        border-left: 3px dashed green;
+        font-display: bold;
+        padding-left: 30px;
+     }
+   .villagers {
+        border-left: 3px dashed red;
+        padding-left: 30px;
+     }
      
+   table th td {
+        border: 1px solid black;
+     }
+
    td {
-      padding-right: 30px;
+      padding-right: 30px ;
+     }
+
+   tr:nth-child(even) {
+      background-color: rgb(190, 184, 184);
+   }
+      tr:nth-child() {
+         background-color: white;
    }
    
+   span {
+      text-transform: capitalize;
+   }
+   
+ ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+   
+ }
+
+  
+  
